@@ -4,12 +4,12 @@ const Project = () => {
   return (
 
     <>
-        <h1 className='text-2xl font-semibold m-10 pl-20'>0.2 Things I've Built</h1>
+        <h1 className='text-2xl font-semibold md:m-10 md:pl-20 ml-4'>0.2 Things I've Built</h1>
         <div>
         <section className='flex '>
-            <img className='relative h-[20rem] w-[32rem] rounded-lg m-10' src="./assets/resorts.png" alt="" />            
+            <img className='md:relative h-[10rem] w-[20rem] md:h-[20rem] md:w-[32rem] rounded-lg md:m-10 ' src="./assets/resorts.png" alt="" />            
 
-            <div className='mt-8 absolute right-[14rem]'>
+            <div className='md:mt-8 md:absolute md:right-[14rem]'>
                 <p className='text-[#e88d67] text-xl font-bold text-end'>Featured Project</p>
                 <p className='text-2xl font-semibold text-end'>Wanderlust Resorts</p>
                 <p className=' bg-[#fbeddd] text-end p-10  rounded-xl h-60 w-96'>A pet adoption website connects people looking to adopt pets with shelters and rescues, showcasing available animals with photos, details, and adoption procedures. It simplifies the adoption process by providing search filters for pet type, breed, age, and location.</p>

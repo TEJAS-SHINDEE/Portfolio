@@ -3,8 +3,8 @@ import React from "react";
 const Description = () => {
 	return (
 		<>
-			<div className="description  md:flex h-screen ">
-				<div className=" info  md:w-[60%] md:p-16 w-full">
+			<div className="description block md:flex h-screen ">
+				<div className=" info  md:w-[60%] md:p-16 w-3/4 ml-6">
 					<p className=" text-[1.5rem] m-2 md:text-2xl font-semibold md:m-2">
 						Hi, I'm
 					</p>
@@ -18,7 +18,7 @@ const Description = () => {
 					</p>
 				</div>
 
-				<div className="photo  md:w-[40%] w-full">
+				<div className="photo  md:w-[40%] w-3/4 flex items-center justify-center m-10">
 					<img
 						className=" h-full w-full object-cover p-10"
 						src="./assets/photo.png"

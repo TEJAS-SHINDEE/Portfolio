@@ -3,10 +3,10 @@ import React from "react";
 const AboutMe = () => {
 	return (
 		<>
-			<h1 className='text-2xl font-semibold m-10 pl-10'>01.&nbsp;&nbsp;About Me</h1>
+			<h1 className='text-2xl font-semibold md:m-10 md:pl-10 ml-4'>01.&nbsp;&nbsp;About Me</h1>
 			<div className="about flex flex-col md:flex-row">
-				<div className="tech-stack w-2/4 p-10 md:w-full">
-					<h4 className="bg-red-200 text-center">Technologies i work with </h4>
+				<div className="tech-stack w-full p-10 md:w-full ">
+					<h4 className=" md:text-center text-center w-full font-semibold">Technologies i work with </h4>
 					<div className="">
 						<ul className="grid grid-cols-4 grid-flow-row ">
 							<li className="m-6 text-4xl">
@@ -36,7 +36,7 @@ const AboutMe = () => {
 						</ul>
 					</div>
 				</div>
-				<div className="aboutMe w-2/4 md:w-full font-serif text-lg	">
+				<div className="aboutMe w-full md:w-full font-serif text-lg	">
 					<p className="p-10">
 						Tejas Shinde is a software Engineer based in Warana, kolhapur. I
 						have developed web applications using JavaScript and TypeScript.I

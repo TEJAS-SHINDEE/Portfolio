@@ -3,10 +3,14 @@ import React from "react";
 const AboutMe = () => {
 	return (
 		<>
-			<h1 className='text-2xl font-semibold md:m-10 md:pl-10 ml-4'>01.&nbsp;&nbsp;About Me</h1>
+			<h1 className="text-2xl font-semibold md:m-10 md:pl-10 ml-4">
+				01.&nbsp;&nbsp;About Me
+			</h1>
 			<div className="about flex flex-col md:flex-row">
 				<div className="tech-stack w-full p-10 md:w-full ">
-					<h4 className=" md:text-center text-center w-full font-semibold">Technologies i work with </h4>
+					<h4 className=" md:text-center text-center w-full font-semibold">
+						Technologies i work with{" "}
+					</h4>
 					<div className="">
 						<ul className="grid grid-cols-4 grid-flow-row ">
 							<li className="m-6 text-4xl">
@@ -42,11 +46,11 @@ const AboutMe = () => {
 						have developed web applications using JavaScript and TypeScript.I
 						love turning designs and ideas into cool web experiences, and work
 						closely with Product designers and backend developers to bring these
-						ideas to life. <br /> I have contributed to numerous projects, collaborating
-						with product designers, backend developers, DevOps, and other tech
-						professionals.
+						ideas to life. <br /> I have contributed to numerous projects,
+						collaborating with product designers, backend developers, DevOps,
+						and other tech professionals.
 					</p>
-                    {/* <p className="p-10">
+					{/* <p className="p-10">
                          Over this period, I have worked and interned at
 						startups and companies such as Pathpalz, Berrystamp, and
 						JustDoStartUp. I have a strong passion for learning and teaching,

@@ -20,12 +20,12 @@ import { Footer } from "./ui/component/footer.jsx";
 // import React, { useState, useEffect } from 'react';
 
 const App = () => {
-	const [showSplash, setShowSplash] = useState(true);
+	const [showSplash, setShowSplash] = useState(false);
 
 	useEffect(() => {
-		const timer = setTimeout(() => {
-			setShowSplash(false);
-		}, 1000); // 4 seconds
+		// const timer = setTimeout(() => {
+		// 	setShowSplash(false);
+		// }, 4000); // 4 seconds
 
 		return () => clearTimeout(timer); // Cleanup the timer
 	}, []);

@@ -3,47 +3,29 @@ import "./App.css";
 import { Header } from "./ui/component/header.jsx";
 import { Socialmedia } from "./ui/component/socialmedia.jsx";
 import MainContent from "./ui/component/mainContent.jsx";
-import { Footer } from "./ui/component/footer.jsx";
-
-// function App() {
-// 	return (
-// 		<>
-// 			<Header />
-// 			<Socialmedia />
-// 			<MainContent />
-// 		</>
-// 	);
-// }
-
-// export default App;
-
-// import React, { useState, useEffect } from 'react';
 
 const App = () => {
-	const [showSplash, setShowSplash] = useState(false);
 
+	const [showSplash, setShowSplash] = useState(false);     
 	useEffect(() => {
-		// const timer = setTimeout(() => {
-		// 	setShowSplash(false);
-		// }, 4000); // 4 seconds
+		const timer = setTimeout(() => {
+			setShowSplash(false);
+		}, 4000); 
 
-		return () => clearTimeout(timer); // Cleanup the timer
+		return () => clearTimeout(timer); 
 	}, []);
 
 	return (
-		<div className="flex items-center justify-center ">
+		<div className=" flex items-center justify-center ">
 			{showSplash ? (
-				<div className="h-screen flex items-center justify-center text-4xl font-bold  ">
-					{" "}
+				<div className="h-screen flex items-center justify-center text-4xl font-bold  animate-scaleInOut">
+					Tejas Shinde
 				</div>
-				// <div> </div>
 			) : (
 				<div>
 					<Header />
 					<Socialmedia />
 					<MainContent />
-					<br />
-					{/* <Footer/> */}
 				</div>
 			)}
 		</div>

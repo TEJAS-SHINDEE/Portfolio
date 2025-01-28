@@ -11,6 +11,7 @@ export const Footer = () => {
 				<br />( Inspiration from <span className="font-bold">Farook</span> )
 			</p>
 			<p className="text-center text-lg  ">&copy; 2025 All rights reserved</p>
+			<p className="text-3xl scroll-smooth "><a href="#description" ><button type="button"><i class="ri-arrow-up-circle-fill"> </i></button></a></p>
 		</div>
 	);
 };

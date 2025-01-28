@@ -3,7 +3,7 @@ import React from "react";
 const Description = () => {
 	return (
 		<>
-			<div className="description  h-screen flex flex-col lg:flex lg:flex-row justify-between">
+			<div id="description" className="description  h-screen flex flex-col lg:flex lg:flex-row justify-between">
 					<section className=" info xl:w-[70%] relative pb-10 w-full flex flex.col gap-4 ">
 						<div className="flex flex-col gap-2">
 						<span className="font-medium text-lg ">

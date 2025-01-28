@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <>
       <div className="sticky top-0 z-50 ">
-        <nav className="flex flex-row h-20 w-full items-center justify-between px-2 sm:px-16 backdrop-blur-lg">
+        <nav className="flex flex-row h-20 w-full items-center justify-between px-4 md:px-4 sm:px-16 backdrop-blur-lg">
           <div className="flex flex-start gap-4">
             <p>
               <span>
@@ -21,12 +21,12 @@ export const Header = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className={`items-center gap-5 mr-10 hidden lg:flex`}>
+          <ul className="items-center gap-5 mr-10 hidden lg:flex">
             <li className="hover:underline">
               <a href="#about">ABOUT</a>
             </li>
             <li className="hover:underline">
-              <a href="##">EXPERIENCE'S</a>
+              <a href="#experience">EXPERIENCE'S</a>
             </li>
             <li className="hover:underline">
               <a href="##">WORKS</a>
@@ -54,7 +54,7 @@ export const Header = () => {
               <a href="#about">ABOUT</a>
             </li>
             <li className="hover:underline">
-              <a href="##">EXPERIENCE'S</a>
+              <a href="#description">EXPERIENCE'S</a>
             </li>
             <li className="hover:underline">
               <a href="##">WORKS</a>

@@ -6,6 +6,7 @@ import Email from "./email.jsx";
 import {Footer} from "./footer.jsx";
 
 const MainContent = () => {
+	
 	return (
 		<>
 			<div className="main-content h-full px-5 sm:px-12 ">
@@ -17,7 +18,7 @@ const MainContent = () => {
 
 				{/* <Project /> */}
 				
-				<Project/>
+				{/* <Project/> */}
 
 				{/* <Email /> */}
 				<Email/>

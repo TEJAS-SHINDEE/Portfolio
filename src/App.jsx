@@ -16,7 +16,7 @@ const App = () => {
 	}, []);
 
 	return (
-		<div className=" flex items-center justify-center ">
+		<div className=" flex items-center justify-center selection:bg-[#5EEAD4]">
 			{showSplash ? (
 				<div className="h-screen flex items-center justify-center text-4xl font-bold  animate-scaleInOut">
 					Tejas Shinde

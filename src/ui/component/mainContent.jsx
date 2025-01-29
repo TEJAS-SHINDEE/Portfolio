@@ -17,7 +17,6 @@ const MainContent = () => {
 				<AboutMe />
 
 				{/* <Project /> */}
-				
 				{/* <Project/> */}
 
 				{/* <Email /> */}

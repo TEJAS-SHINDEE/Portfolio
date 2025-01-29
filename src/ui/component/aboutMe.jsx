@@ -9,8 +9,8 @@ const AboutMe = () => {
 				>
 					<div className="flex flex-row gap-4 justify-center lg:justify-end items-center font-bold">
 						<div className="w-[5%%] lg:hidden lg:w-36 border-b-[1px] border-b-border-color"> </div>
-						<span className="font-bold text-lg sm:text-2xl font-idgrotesk">
-							01.&nbsp;&nbsp;About Me
+						<span className="font-bold text-lg sm:text-2xl  ">
+							01.&nbsp;&nbsp;<span className="italic">About Me</span>
 						</span>
 						<div className="w-[5%] lg:w-36 border-b-[1px] border-b-border-color "> </div>
 					</div>
@@ -19,37 +19,39 @@ const AboutMe = () => {
 
 						<div className="w-full lg:w-[50%] flex flex-col gap-2 order-2 lg:order-1">
 							<h4 className="font-bold">
-								Technologies i work with{" "}
+								Technologies I work with{" "}
 							</h4>
-							<div className="" >  {/*  style='background-image:url("./assets/tech-bg.png")' */}
+							<div 
+								// className="bg-[url('./assets/tec2h-bg.png')] bg-white opacity-50" 	
+							>
 								<ul className="px-8 py-8 flex flex-row  h-auto sm:flex-col gap-4 sm:h-80 lg:gap-2 lg:h-72  flex-wrap w-full font-idgrotesk">
 									{/* <li className="flex filter grayscale hover:grayscale-0  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
 										<img src="" alt="" />
 										<span> </span>   // original style
 									</li> */}
-									<li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									<li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/html.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">HTML</span>
 									</li>
-									<li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									<li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/react.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">React</span>
-									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/css.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">css</span>
-									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/javascript.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">JavaScript</span>
-									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/nodejs.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">NodeJs</span>
-									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/mongodb.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">MongoDB</span>
-									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/tailwind.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">Tailwind CSS</span>
-									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+									</li><li className="flex filter  items-center cursor-pointer gap-5 transition-all duration-300 ">
 										<img src="./assets/git.png" height={50} width={50} alt="" />
 										<span className="hidden sm:inline-block font-bold italic">Git</span>
 									</li>

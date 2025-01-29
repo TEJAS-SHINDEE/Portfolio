@@ -6,7 +6,7 @@ import MainContent from "./ui/component/mainContent.jsx";
 
 const App = () => {
 
-	const [showSplash, setShowSplash] = useState(false);     
+	const [showSplash, setShowSplash] = useState(false	);     
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setShowSplash(false);
@@ -18,8 +18,8 @@ const App = () => {
 	return (
 		<div className=" flex items-center justify-center selection:bg-[#5EEAD4]">
 			{showSplash ? (
-				<div className="h-screen flex items-center justify-center text-4xl font-bold  animate-scaleInOut">
-					Tejas Shinde
+				<div className="h-screen flex items-center justify-center text-4xl font-bold  animate-scaleInOut text-center">
+					Tejas <br />Shinde
 				</div>
 			) : (
 				<div>
